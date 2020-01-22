@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 	width: 1024px;
-	padding: 0 75px;
+	padding: 35px 75px;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -79,6 +80,21 @@ nav ul li {
 	padding-right: 45px;
 }
 
+nav ul li a{
+	text-decoration: none;
+}
+
+nav img{
+  float: right;
+  margin-top: -10px;
+}
+
+nav::after {
+	clear: both;
+	display: table;
+	content: '';
+}
+
 header div {
 	display: inline-block;
 }
@@ -87,12 +103,60 @@ header h1 {
 	font-size: 4.5em;
 }
 
+img .logo{
+  float: right;
+}
+
+
 .content-box {
 	display: inline-block;
 	width: 49%;
+	border-top: 1px solid black;
 }
 
 .content-2 {
 	display: inline-block;
 	width: 33%;
+}
+
+.header-left{
+  display: inline-block;
+  padding: 75px;
+  text-align: center;
+  width: 49%;
+}
+
+.header-left button:hover{
+	color: green;
+	border: 1px solid green;
+}
+
+.header-left button {
+	margin: 0 auto;
+	padding: 8px 45px;
+	background-color: transparent;
+	border: 1px solid rgb(100, 100, 100);
+	font-size: 1em;
+	color: rgb(100, 100, 100);
+}
+
+.header-right{
+	padding: 40px 0;
+	margin-left: 40px;
+}
+
+.top-content{
+	margin-bottom: 35px;
+}
+
+.content-2{
+	margin-top: 35px;
+}
+
+button a{
+	text-decoration: none;
+}
+
+.contact-container{
+	border-top: 1px solid black;
 }

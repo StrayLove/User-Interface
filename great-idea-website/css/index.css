@@ -90,6 +90,7 @@ header h1 {
 .content-box {
 	display: inline-block;
 	width: 49%;
+	border: 1px solid black;
 }
 
 .content-2 {
@@ -107,4 +108,9 @@ header h1 {
 .header-img{
 	padding: 40px 0;
 	float: right;
+}
+
+.contact-container{
+	padding-top: 35px;
+	border: 1px solid black;
 }
